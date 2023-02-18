@@ -2,7 +2,7 @@
 
 Simple nginx config w/ssl for localtunnel. Certificate and key must be provided (obviously).
 
-Your certificate and key must be called `server.crt` and `server.key` and will be volume mounted into the container at runtime.
+Your certificate and key must be called `fullchain.pem` and `privkey.pem` and will be volume mounted into the container at runtime.
 
 There is nothing really special here that you couldn't do with your own nginx or other load balancers. This repo is provided as a reference for those wanting to run their own localtunnel servers.
 
